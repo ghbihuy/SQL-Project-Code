@@ -13,7 +13,7 @@ from
 from orders
 ) t)
 
---Way2: Using the loops of cursor
+--Way2: Using the recursion of cursor
 select @col2 += QUOTENAME(order_priority) + ', ' 
 from 
 (select distinct order_priority
